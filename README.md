@@ -9,7 +9,7 @@
 
 ## Why Status Codes are Important for the Client
 
-Status codes allow your server to tell something special to the client. The responses you send need to be effective to both a human user and to the browser itself. That means that  response messages like `File Not Found` or `Item isn't in the cart` work if there is a human to read the English. Browsers also want to know the status of the response. To get that response, the HTTP protocol has an agreed upon contract for different "status codes". A status code is a 3-digit integer where the first digit represents the class of the response, and the remaining two digits represent a specific status. There are 5 primary values that the first digit can take.  
+Status codes allow your server to tell something special to the client. The responses you send need to be effective to both a human user and to the browser itself. That means that  response messages like `File Not Found` or `Item isn't in the cart` work if there is a human to read the English. Browsers also want to know the status of the response. To get that response, the HTTP has an agreed upon contract for different "status codes". A status code is a 3-digit integer where the first digit represents the class of the response, and the remaining two digits represent a specific status. There are 5 primary values that the first digit can take.  
 
 ### Status Code Chart
 
@@ -59,4 +59,4 @@ Now if you go to `localhost:9292/badURL` you'll get the error message, and if yo
 ### Resources
 * [More on Status Codes](http://www.tutorialspoint.com/http/http_status_codes.htm)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rack-status-codes-readme' title='HTTP Status Codes'>HTTP Status Codes</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/rack-status-codes-readme'>HTTP Status Codes</a> on Learn.co and start learning to code for free.</p>
